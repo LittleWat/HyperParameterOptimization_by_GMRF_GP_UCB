@@ -188,16 +188,16 @@ $\bm{A}=\T{\bm{D}} \bm{D}$, $\bm{z}=\bm{D}\bm{y}$
 \subsection{Hyperparamter of GMRF estimation}
 \subsubsection{Pairwise Sampling}
 \begin{eqnarray*}
-\gamma_y &=& \dfrac{1}{td^2} \sum_t (r^t - {r'}^t)^2 \\
+\gamma_y &=& \dfrac{1}{td^2} \sum_t (r_t - {r'}_t)^2 \\
 \gamma &=& 2d\gamma_y \\
 \gamma_0 &=& 0.01 \gamma \\
-\alpha &=& \dfrac{1}{t} \sum_t (r^t + {r'}^t) \\
+\alpha &=& \dfrac{1}{2t} \sum_t (r_t + {r'}_t) \\
 \end{eqnarray*}
 
 \begin{table}[htb]
 \begin{tabular}{cl}
-${r}^t$&the observed value at time $t$ \\
-${r'}^t$&the one of the adjacent observed value at time $t$\\
+${r}_t$&the observed value at time $t$ \\
+${r'}_t$&the one of the adjacent observed value at time $t$\\
 \end{tabular}
 \end{table}
 
