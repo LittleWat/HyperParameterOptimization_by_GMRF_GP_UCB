@@ -182,3 +182,5 @@ Dataset for libsvm can be downloaded from [here](https://www.csie.ntu.edu.tw/~cj
 ![sample](_static/lda_anim.gif)
 
 
+## References
+* https://github.com/tushuhei/gpucb
