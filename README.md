@@ -1,8 +1,18 @@
 # Hyperprameter Optimization Library using GP, GMRF
 
-<!---
-[![Build Status](https://travis-ci.org/LittleWat/gp_ycb_python_lib.svg?branch=master)](https://travis-ci.org/LittleWat/gp_ycb_python_lib)
--->
+This code is related to [our work](https://books.google.co.jp/books?id=HutgDwAAQBAJ&pg=PA115&lpg=PA115&dq=Fast+Converging+Multi-armed+Bandit+Optimization+Using+Probabilistic+Graphical+Model&source=bl&ots=r0jAG_k1O9&sig=CJaz6SO0sH8VWFSXBfurfcsZMnc&hl=ja&sa=X&ved=2ahUKEwiJ1ODJ7MDdAhUMW7wKHQncChUQ6AEwA3oECAYQAQ#v=onepage&q=Fast%20Converging%20Multi-armed%20Bandit%20Optimization%20Using%20Probabilistic%20Graphical%20Model&f=false)
+
+If you find this code useful in your research, please consider citing:
+```
+@inproceedings{zhao2018fast,
+  title={Fast Converging Multi-armed Bandit Optimization Using Probabilistic Graphical Model},
+  author={Zhao, Chen and Watanabe, Kohei and Yang, Bin and Hirate, Yu},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={115--127},
+  year={2018},
+  organization={Springer}
+}
+```
 
 ## Install
 Only Python 3.x is supported.
@@ -21,12 +31,14 @@ pip install -e .
 
 ## Usage
 ### Demo
-##### 1. Move to one sample dir
+1. Move to one sample dir
 
 ```bash
 cd ./samples/one_dim_test
 ```
-##### 2. Generate the searching paramter files
+
+2. Generate the searching paramter files
+
 ```bash
 cd ./param_dir
 
@@ -47,7 +59,8 @@ This generates 'csv_files' dir.
 'bo_x' paramter is for baysian optimization (GP or GMRF).
 
 
-##### 3. Run the script
+3. Run the script
+
 ```bash
 cd ../
 
