@@ -1,6 +1,6 @@
 # Hyperprameter Optimization Library using GP, GMRF
 
-This code is related to [our work](https://books.google.co.jp/books?id=HutgDwAAQBAJ&pg=PA115&lpg=PA115&dq=Fast+Converging+Multi-armed+Bandit+Optimization+Using+Probabilistic+Graphical+Model&source=bl&ots=r0jAG_k1O9&sig=CJaz6SO0sH8VWFSXBfurfcsZMnc&hl=ja&sa=X&ved=2ahUKEwiJ1ODJ7MDdAhUMW7wKHQncChUQ6AEwA3oECAYQAQ#v=onepage&q=Fast%20Converging%20Multi-armed%20Bandit%20Optimization%20Using%20Probabilistic%20Graphical%20Model&f=false)
+This code is related to [our work "Fast Converging Multi-armed Bandit Optimization Using Probabilistic Graphical Model"](https://books.google.co.jp/books?id=HutgDwAAQBAJ&pg=PA115&lpg=PA115&dq=Fast+Converging+Multi-armed+Bandit+Optimization+Using+Probabilistic+Graphical+Model&source=bl&ots=r0jAG_k1O9&sig=CJaz6SO0sH8VWFSXBfurfcsZMnc&hl=ja&sa=X&ved=2ahUKEwiJ1ODJ7MDdAhUMW7wKHQncChUQ6AEwA3oECAYQAQ#v=onepage&q=Fast%20Converging%20Multi-armed%20Bandit%20Optimization%20Using%20Probabilistic%20Graphical%20Model&f=false)
 
 If you find this code useful in your research, please consider citing:
 ```
